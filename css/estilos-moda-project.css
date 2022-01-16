@@ -419,9 +419,11 @@
         }
         .main{
             grid-template-columns: 100%;
-            grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows:   16% 16% 16% 16% 16% 16% ;
             row-gap: 1%;
             padding-top: 8%;
+            padding-bottom: 8%;
+            height: max-content;
         }
         
         
@@ -475,6 +477,8 @@
         .imagen-productos{
             grid-column: 1;
             grid-row: 1 / span 2;
+            width: 90%;
+            text-align: start;
         }
         .precio-producto{
             grid-column: 2;
@@ -494,8 +498,5 @@
             font-size:x-large;
             text-align: center;
         }
-        .imagen-productos{
-            width: 90%;
-            text-align: start;
-        }
+    
     }

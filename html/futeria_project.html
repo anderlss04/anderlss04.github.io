@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDERLUCKY: Fruteria</title>
+    <link rel="stylesheet" href="..\css\estilos_fruteria_project.css" type="text/css">
+    <link rel="stylesheet" href="../css/fonts.css" type="text/css">
+
+
+</head>
+
+<body>
+
+    <div class="grande">
+
+        <div class="menu">
+
+
+            <div class="logo" id="logo-menu">
+                <h2>ANDERLUCKYº</h2>
+            </div>
+
+            <div id="logo-carrito">
+                <img src="https://img.icons8.com/pastel-glyph/64/000000/shopping-trolley--v1.png" width="40px" />
+            </div>
+
+
+            <header class="header-menu">
+                <div class="menu-bar">
+                    <a href="#" class="btn-menu"><span class="icon-menu"></span> Menu</a>
+                </div>
+
+                <nav id="links-menu">
+                    <ul class="nav-items">
+                        <li><a class="links" href="home_project.html">Home</a></li>
+                        <li><a class="links" href="moda-project.html">Moda</a></li>
+                        <li><a class="links" href="parfum-project.html">Perfumeria</a></li>
+                    </ul>
+
+                    <div id="filtros-menu" class="filtros">
+
+
+                        <div class="enunciado-filtros">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/filter--v1.png" width="50px" />
+
+                            <h3>FILTROS</h3>
+                        </div>
+
+                        <form action="" id="form-filtros">
+                            <p>
+                                <input class="estilos-filtros" id="buscador-filtros" type="search"
+                                    name="busquedaFrutaVerdura" placeholder="Aguacate, mango, platano...">
+                                <input id="boton-buscador-filtros" type="submit" value="Buscar">
+                            </p>
+
+
+                            <select class="estilos-filtros" id="select-filtros" name="Marca" multiple size="8">
+                                <optgroup label="Marcas">
+                                    <option value="1">Celorrio</option>
+                                    <option value="2">Izquierdo</option>
+                                    <option value="3">Lamount</option>
+                                    <option value="4">Florette</option>
+                                </optgroup>
+
+                                <optgroup label="Origen">
+                                    <option value="1">España</option>
+                                    <option value="2">Canarias</option>
+                                    <option value="3">Ecuador</option>
+                                    <option value="4">Cuba</option>
+                                    <option value="5">Senegal</option>
+                                </optgroup>
+                            </select>
+                            <h4>Precio</h4>
+                            <div class="contenedor-precio">
+                                <input type="range" list="tickmarks" step="1">
+                                <datalist id="tickmarks">
+                                    <option value="1">
+                                    <option value="5">
+                                    <option value="10">
+                                    <option value="15">
+                                    <option value="20">
+                                    <option value="25">
+                                    <option value="30">
+                                    <option value="35">
+                                    <option value="40">
+                                    <option value="45">
+                                    <option value="50">
+                                </datalist>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </nav>
+
+
+
+            </header>
+
+
+
+
+
+
+        </div>
+
+        <div class="imagen-fondo">
+            <div class="fondo">
+
+                <div class="main">
+
+
+                    <button id="boton-filtros" type="menu"></button>
+                    <div class="cartel-pagina">
+                        <h1>Frutas y Verduras</h1>
+                    </div>
+
+                    <div id="filtros-main" class="filtros">
+
+
+                        <div class="enunciado-filtros">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/filter--v1.png" width="50px" />
+
+                            <h3>FILTROS</h3>
+                        </div>
+
+                        <form action="" id="form-filtros">
+                            <p>
+                                <input class="estilos-filtros" id="buscador-filtros" type="search"
+                                    name="busquedaFrutaVerdura" placeholder="Aguacate, mango, platano...">
+                                <input id="boton-buscador-filtros" type="submit" value="Buscar">
+                            </p>
+
+
+                            <select class="estilos-filtros" id="select-filtros" name="Marca" multiple size="15">
+                                <optgroup label="Marcas">
+                                    <option value="1">Celorrio</option>
+                                    <option value="2">Izquierdo</option>
+                                    <option value="3">Lamount</option>
+                                    <option value="4">Florette</option>
+                                </optgroup>
+
+                                <optgroup label="Origen">
+                                    <option value="1">España</option>
+                                    <option value="2">Canarias</option>
+                                    <option value="3">Ecuador</option>
+                                    <option value="4">Cuba</option>
+                                    <option value="5">Senegal</option>
+                                </optgroup>
+                            </select>
+                            <h4>Precio</h4>
+                            <div class="contenedor-precio">
+                                <input type="range" list="tickmarks" step="1">
+                                <datalist id="tickmarks">
+                                    <option value="1">
+                                    <option value="5">
+                                    <option value="10">
+                                    <option value="15">
+                                    <option value="20">
+                                    <option value="25">
+                                    <option value="30">
+                                    <option value="35">
+                                    <option value="40">
+                                    <option value="45">
+                                    <option value="50">
+                                </datalist>
+
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="productos row-1 column-2" id="producto1">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-Aguacate.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">5,55€/kg</p>
+                        <p class="peso-producto">500g Aprox</p>
+                        <p class="nombre-producto">Aguacate</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+
+
+                </div>
+
+                <div class="productos row-1 column-3" id="producto2">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-Calabacin.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">3,00€/kg</p>
+                        <p class="peso-producto">750g Aprox</p>
+                        <p class="nombre-producto">Calabacín</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-1 column-4" id="producto3">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-Berenjena.jpg" >
+                    </div>
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">3,25€/kg</p>
+                        <p class="peso-producto">1 kg Aprox</p>
+                        <p class="nombre-producto">Berenjena</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-2 column-2" id="producto4">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-Zespri-kiwi.jpg" >
+                    </div>
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">4.95€/kg</p>
+                        <p class="peso-producto">200g Aprox</p>
+                        <p class="nombre-producto">Kiwi verde</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-2 column-3" id="producto5">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Ventabiok-Kiwi-Amarillo.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">8,95€/kg</p>
+                        <p class="peso-producto">200g Aprox</p>
+                        <p class="nombre-producto">Kiwi amarillo</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-2 column-4" id="producto6">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/VentaBiok-Mango.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">2,95€/kg</p>
+                        <p class="peso-producto">450g Aprox</p>
+                        <p class="nombre-producto">Mango</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-3 column-2" id="producto7">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-Pera-conferencia.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">1,95€/kg</p>
+                        <p class="peso-producto">350g Aprox</p>
+                        <p class="nombre-producto">Pera</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-3 column-3" id="producto8">
+                    <div class="imagen-productos" >
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-PLA%CC%81TANO.jpg" >
+                    </div>
+
+
+                    <form class="datos-productos">
+                        <p class="precio-producto">2.25€/kg</p>
+                        <p class="peso-producto">1 kg Aprox</p>
+                        <p class="nombre-producto">Plátano</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+                <div class="productos row-3 column-4" id="producto9">
+                    <div class="imagen-productos">
+                        <img class="imagen-productos" src="https://www.ventabiok.com/wp-content/uploads/Venta-Biok-MANZANA-GOLDE.jpg"  >
+                    </div>
+
+
+                    <form class="datos-productos">
+
+                        <p class="precio-producto">1,95€/kg</p>
+                        <p class="peso-producto">300g Aprox</p>
+                        <p class="nombre-producto">Manzana golden</p>
+                        <input class="input-cantidad-producto" min="0" type="number">
+                        <button class="input-añadir-producto" type="submit">Añadir</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="contenedor-logo-footer">
+            <div class="logo" id="logo-footer">
+                <h2>ANDERLUCKYº</h2>
+            </div>
+        </div>
+
+        <a class="links row-11 column-1" href="contactos_project.html">Contacto</a>
+        <p class="row-22 column-1">FAQ</p>
+        <p class="row-11 column-33">Gestion de Coockies</p>
+        <p class="row-22 column-33">Terminos y uso de seguridad</p>
+
+    </div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="..\js\menu.js"></script>
+
+</body>
+
+</html>
